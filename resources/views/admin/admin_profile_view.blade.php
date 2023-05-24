@@ -8,7 +8,7 @@
                 <div class="card">
                    
                     <center> <br><br>
-                    <img class="rounded-circle avatar-xl" src="{{asset('backend/assets/images/small/img-5.jpg')}}" alt="Card image cap">
+                    <img class="rounded-circle avatar-xl" src="{{asset('backend/assets/images/users/avatar-1.png')}}" alt="Card image cap">
                     </center>
 
                    
@@ -20,7 +20,7 @@
                             <hr>
                             <h4 class="card-title">User Name: {{$adminData->username}}</h4>
                             <hr>
-                            <a href="" class="btn btn-danger btn-rounded waves-effect waves-light"> Edit Profile</a>
+                            <a href="{{route('edit.profile')}}" class="btn btn-danger btn-rounded waves-effect waves-light"> Edit Profile</a>
                                 
                                 
                         </div>
