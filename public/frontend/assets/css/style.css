@@ -268,7 +268,7 @@ label {
 .btn {
   user-select: none;
   -moz-user-select: none;
-  background: #b81b36 none repeat scroll 0 0;
+  background: #f00 none repeat scroll 0 0;
   border: medium none;
   border-radius: 0;
   color: #fff;
@@ -302,7 +302,7 @@ label {
     left: 0px;
     width: 100%;
     height: 100%;
-    background: #b81b36;
+    background: #000;
     display: block;
     -webkit-transform-origin: right top;
     -ms-transform-origin: right top;
@@ -349,7 +349,7 @@ label {
   color: #fff;
   text-align: center;
   cursor: pointer;
-  background: #b81b36;
+  background: #f00;
   transition: 1s ease;
   border: none;
   opacity: 0; }
@@ -1589,7 +1589,7 @@ label {
           height: 0;
           border-style: solid;
           border-width: 0 7px 14px 7px;
-          border-color: transparent transparent #B81B36 transparent;
+          border-color: transparent transparent #F00 transparent;
           margin: 0 auto;
           opacity: 0;
           -webkit-transition: all 0.3s ease-out 0s;
@@ -2089,7 +2089,7 @@ Breadcrumb
       align-items: center;
       justify-content: center;
       font-size: 25px;
-      background: #b81b36;
+      background: #f00;
       color: #fff;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -2151,7 +2151,7 @@ Breadcrumb
 =============================*/
 .section__title .sub-title {
   display: block;
-  color: #b81b36;
+  color: #f00;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 700;
@@ -2675,7 +2675,7 @@ Breadcrumb
       line-height: 1.7;
       margin-bottom: 0; }
     .services__content .border-btn::before {
-      background: #b81b36; }
+      background: #f00; }
   .services__icon {
     margin-bottom: 23px; }
     .services__icon img {
@@ -3028,7 +3028,7 @@ Breadcrumb
     font-weight: 700;
     font-size: 15px;
     line-height: 1;
-    color: #b81b36;
+    color: #f00;
     margin-bottom: 30px; }
   .work__process__icon {
     margin-bottom: 15px; }
@@ -3118,7 +3118,7 @@ Breadcrumb
           height: 0;
           border-style: solid;
           border-width: 0 7px 14px 7px;
-          border-color: transparent transparent #B81B36 transparent;
+          border-color: transparent transparent #F00 transparent;
           margin: 0 auto;
           opacity: 0; }
           @media (max-width: 991.98px) {
@@ -3192,7 +3192,7 @@ Breadcrumb
     position: absolute;
     width: 438px;
     height: 438px;
-    background: rgb(184, 27, 54);
+    background: rgb(255, 0, 0);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -3650,7 +3650,7 @@ Breadcrumb
     font-size: 24px;
     line-height: 1;
     margin-left: 1px;
-    color: #b81b36;
+    color: #f00;
     margin-bottom: 35px; }
     @media (max-width: 767.98px) {
       .testimonial__icon {
@@ -3978,7 +3978,7 @@ Breadcrumb
     .blog__post__content .date {
       display: block;
       text-transform: uppercase;
-      color: #b81b36;
+      color: #f00;
       font-weight: 700;
       letter-spacing: 0.1em;
       font-size: 15px;
@@ -3995,7 +3995,7 @@ Breadcrumb
       .blog__post__content .title a {
         position: relative;
         display: inline;
-        background-image: linear-gradient(#B81B36, #B81B36), linear-gradient(#B81B36, #B81B36);
+        background-image: linear-gradient(#F00, #F00), linear-gradient(#F00, #F00);
         background-size: 0% 1px, 0 1px;
         background-position: 100% 100%, 0 100%;
         background-repeat: no-repeat;
@@ -4675,7 +4675,7 @@ Breadcrumb
       bottom: 0;
       width: 100%;
       height: 10px;
-      background: #B81B36;
+      background: #F00;
       opacity: .19;
       z-index: -1; }
     .homeContact__content .mail a:hover {
@@ -4858,7 +4858,7 @@ Breadcrumb
 13. Footer
 =============================*/
 .footer {
-  background: #191B1E;
+  background: #000;
   padding: 310px 0 95px; }
   @media (max-width: 767.98px) {
     .footer {
@@ -4950,7 +4950,7 @@ Breadcrumb
   box-shadow: 15px 15px #0054FF, -15px 15px #FCAF17, -15px -15px #0054FF, 15px -15px #FCAF17;
   -o-box-shadow: 15px 15px #0054FF, -15px 15px #FCAF17, -15px -15px #0054FF, 15px -15px #FCAF17;
   -ms-box-shadow: 15px 15px #0054FF, -15px 15px #FCAF17, -15px -15px #0054FF, 15px -15px #FCAF17;
-  -webkit-box-shadow: 15px 15px #0054FF, -15px 15px #FCAF17, -15px -15px #0054FF, 15px -15px #FCAF17;
+  -webkit-box-shadow: 15px 15px #F00, -15px 15px #000, -15px -15px #F00, 15px -15px #000;
   -moz-box-shadow: 15px 15px #0054FF, -15px 15px #FCAF17, -15px -15px #0054FF, 15px -15px #FCAF17;
   animation: rasalina-spin ease infinite 4.6s;
   -o-animation: rasalina-spin ease infinite 4.6s;

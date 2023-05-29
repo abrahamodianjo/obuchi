@@ -54,11 +54,11 @@
               <div class="row mb-3">
                  <label for="example-text-input" class="col-sm-2 col-form-label">  </label>
                 <div class="col-sm-10">
-  <img id="showImage" class="rounded avatar-lg" src="{{ (!empty($homeslide->home_slide))? url($homeslide->home_slide):url('upload/no_image.jpg') }}" alt="Card image cap">
+                    <img id="showImage" class="rounded avatar-lg" src="{{ (!empty($homeslide->home_slide))? url($homeslide->home_slide):url('upload/no_image.jpg') }}" alt="Card image cap">
                 </div>
             </div>
             <!-- end row -->
-<input type="submit" class="btn btn-danger waves-effect waves-light" value="Update Slide">
+        <input type="submit" class="btn btn-danger waves-effect waves-light" value="Update Slide">
             </form>
              
            
