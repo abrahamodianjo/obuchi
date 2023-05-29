@@ -11,8 +11,9 @@
                         </div>
                         <div class="col-xl-5 col-lg-6">
                             <div class="banner__content">
-                                <h2 class="title wow fadeInUp" data-wow-delay=".2s"><span>I will give you Best</span> <br> Product in the shortest time.</h2>
-                                <p class="wow fadeInUp" data-wow-delay=".4s">I'm a Rasalina based product design & visual designer focused on crafting clean & user‑friendly experiences</p>
+                            <p class="wow fadeInUp" data-wow-delay=".4s">Our mission is simple</p>    
+                            <h2 class="title wow fadeInUp" data-wow-delay=".2s"><span>To bring your creative imagination to innovative reality</h2>
+                                <p class="wow fadeInUp" data-wow-delay=".4s">We develop cutting edge messaging and concepts using imaginative and innovative tools to achieve maximum impact and people participation.</p>
                                 <a href="about.html" class="btn banner__btn wow fadeInUp" data-wow-delay=".6s">more about me</a>
                             </div>
                         </div>
