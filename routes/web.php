@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Demo\DemoController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Home\HomeSliderController;
+use App\Http\Controllers\Home\AboutController;
 
 
 Route::get('/', function () {
@@ -38,6 +39,14 @@ Route::controller(HomeSliderController::class)->group(function () {
    
 });
 
+//About Page All Route
+Route::controller(AboutController::class)->group(function () {
+    Route::get('/home/page', 'AboutPage')->name('about.page');
+    Route::post('/update/about', 'UpdateAbout')->name('update.about');
+  
+   
+   
+});
 
 
 
