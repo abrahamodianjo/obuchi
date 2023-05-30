@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\About;
 use Image;
 
+
 class AboutController extends Controller
 {
     public function AboutPage(){
@@ -71,4 +72,12 @@ class AboutController extends Controller
         return view('frontend.about_page', compact('aboutpage'));
 
     }//End Method
+
+    public function AboutMultiImage(){
+
+        return view('admin.about_page.multiimage');
+
+    } //End Method
+
 }
+
