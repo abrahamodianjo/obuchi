@@ -85,22 +85,9 @@
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
                             <p class="desc">
-                                {{!! $aboutpage->long_description !!}}
+                                {!! $aboutpage->long_description !!}
                             </p>
-                            <ul class="about__exp__list">
-                                <li>
-                                    <h5 class="title">User experience design - (Product Design)</h5>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to unseery.</p>
-                                </li>
-                                <li>
-                                    <h5 class="title">Web and user interface design - Development</h5>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of lorem ipsum.</p>
-                                </li>
-                                <li>
-                                    <h5 class="title">Interaction design - Animation</h5>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable.</p>
-                                </li>
-                            </ul>
+                           
                         </div>
                         <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
                             <div class="about__skill__wrap">
