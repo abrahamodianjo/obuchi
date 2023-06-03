@@ -66,4 +66,69 @@ class PortfolioController extends Controller
 
         }//End Method
 
+        
+        public function UpdatePortfolio(Request $request){
+
+            $portfolio_id = $request->id;
+
+            if ($request->file('portfolio_image')) {
+                $image = $request->file('portfolio_image');
+                $name_gen = hexdec(uniqid()).'.'.$image->getClientOriginalExtension();  // 3434343443.jpg
+    
+                Image::make($image)->resize(1020,519)->save('upload/portfolio/'.$name_gen);
+                $save_url = 'upload/portfolio/'.$name_gen;
+    
+                Portfolio::findOrFail($portfolio_id)->update([
+                    'portfolio_name' => $request->portfolio_name,
+                    'portfolio_title' => $request->portfolio_title,
+                    'portfolio_description' => $request->portfolio_description,
+                    'portfolio_image' => $save_url,
+                    'updated_at' => Carbon::now()
+                
+    
+                ]); 
+                $notification = array(
+                'message' => 'Porfolio Updated Successfully', 
+                'alert-type' => 'success'
+            );
+    
+            return redirect()->route('all.portfolio')->with($notification);
+
+        } else {
+            Portfolio::findOrFail($portfolio_id)->update([
+                    'portfolio_name' => $request->portfolio_name,
+                    'portfolio_title' => $request->portfolio_title,
+                    'portfolio_description' => $request->portfolio_description,
+                    'updated_at' => Carbon::now()
+                
+                
+            ]);
+
+            $notification = array (
+                'message' => 'Portfolio Updated without Image Successfully',
+                'alert-type'=>'success'
+            );
+
+            return redirect()->route('all.portfolio')->with($notification);
+        } //End else
+
+        }//End Method for Update portfolio
+
+
+        public function DeletePortfolio($id){
+
+            $portfolio = Portfolio::findOrFail($id);
+            $img = $portfolio->portfolio_image;
+            unlink($img);
+    
+            Portfolio::findOrFail($id)->delete();
+            $notification = array(
+                'message' => 'Portfolio Data Deleted Successfully', 
+                'alert-type' => 'success'
+            );
+    
+            return redirect()->back()->with($notification);
+    
+        }//End Method
+
 }
