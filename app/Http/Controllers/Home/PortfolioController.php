@@ -56,7 +56,7 @@ class PortfolioController extends Controller
         return redirect()->route('all.portfolio')->with($notification);
 
 
-            }
+        }
         
         }// End Method for Store Portfolio
 
