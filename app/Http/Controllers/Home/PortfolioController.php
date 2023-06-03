@@ -13,7 +13,8 @@ class PortfolioController extends Controller
 
         $portfolio = Portfolio::latest()->get();
         return view('admin.protfolio.protfolio_all',compact('portfolio'));
-    }//End Methiod
+   
+    }//End Methiod for All Portfolio display
 
     public function AddPortfolio(){
         return view('admin.protfolio.protfolio_add');
@@ -55,16 +56,16 @@ class PortfolioController extends Controller
         return redirect()->route('all.portfolio')->with($notification);
 
 
-    }
-
-   }// End Method
+            }
+        
+        }// End Method for Store Portfolio
 
         public function EditPortfolio($id){
             
             $portfolio = Portfolio::findOrFail($id);
             return view('admin.protfolio.protfolio_edit',compact('portfolio'));
 
-        }//End Method
+        }//End Method ofr Edit Portfolio
 
         
         public function UpdatePortfolio(Request $request){
@@ -110,7 +111,7 @@ class PortfolioController extends Controller
             );
 
             return redirect()->route('all.portfolio')->with($notification);
-        } //End else
+        } //End else statement 
 
         }//End Method for Update portfolio
 
@@ -131,4 +132,10 @@ class PortfolioController extends Controller
     
         }//End Method
 
+            public function PortfolioDetails($id){
+
+                $portfolio = Portfolio::findOrFail($id);
+                return view('frontend.protfolio_details',compact('portfolio'));
+                
+        } //End Method  for Portfoliio Details 
 }

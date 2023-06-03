@@ -45,7 +45,7 @@
                 <label for="example-text-input" class="col-sm-2 col-form-label">Portfolio Description </label>
                 <div class="col-sm-10">
                    
-                    <textarea id="elm1" name="portfolio_description" >{{ $portfolio->portfolio_title }}</textarea>
+                    <textarea id="elm1" name="portfolio_description" >{{ $portfolio->portfolio_description }}</textarea>
                                      
                 </div>
             </div>
