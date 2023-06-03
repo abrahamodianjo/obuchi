@@ -5,7 +5,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\About;
 use App\Models\MultiImage;
-use Carbon\Carbon;
+use Illuminate\Support\Carbon;
 use Image;
 
 

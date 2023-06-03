@@ -20,6 +20,9 @@
                 <label for="example-text-input" class="col-sm-2 col-form-label">Protfolio Name</label>
                 <div class="col-sm-10">
                     <input name="portfolio_name" class="form-control" type="text"   id="example-text-input">
+                    @error('portfolio_name')
+                        <span class="text-danger">{{$message}}</span>
+                    @enderror
                 </div>
             </div>
             <!-- end row -->
@@ -28,6 +31,9 @@
                 <label for="example-text-input" class="col-sm-2 col-form-label">Portfolio Title </label>
                 <div class="col-sm-10">
                     <input name="portfolio_title" class="form-control" type="text" id="example-text-input">
+                    @error('portfolio_name')
+                        <span class="text-danger">{{$message}}</span>
+                    @enderror
                 </div>
             </div>
             <!-- end row -->
@@ -61,7 +67,7 @@
                 </div>
             </div>
             <!-- end row -->
-        <input type="submit" class="btn btn-danger waves-effect waves-light" value="Insert Portfolio Data`">
+        <input type="submit" class="btn btn-danger waves-effect waves-light" value="Insert Portfolio Data">
             </form>
              
            
