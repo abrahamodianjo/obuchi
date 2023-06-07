@@ -24,7 +24,7 @@
                                             <li class="menu-item-has-children"><a href="{{ route('home.blog') }}">Our Blog</a>
                                                
                                             </li>
-                                            <li><a href="c{{ route('contact.me') }}">contact us</a></li>
+                                            <li><a href="{{ route('contact.me') }}">contact us</a></li>
                                         </ul>
                                     </div>
                                     <div class="header__btn d-none d-md-block">

@@ -10,6 +10,8 @@ use App\Http\Controllers\Home\PortfolioController;
 use App\Http\Controllers\Home\BlogCategoryController;
 use App\Http\Controllers\Home\BlogController;
 use App\Http\Controllers\Home\FooterController;
+use App\Http\Controllers\Home\ContactController;
+
 
 
 Route::get('/', function () {
@@ -114,6 +116,15 @@ Route::controller(FooterController::class)->group(function () {
    
 });
 
+
+//Contact All Route
+Route::controller(ContactController::class)->group(function () {
+    Route::get('/contact', 'Contact')->name('contact.me');
+    Route::post('/store/message', 'StoreMessage')->name('store.message');
+    
+   
+   
+});
 
 
 
