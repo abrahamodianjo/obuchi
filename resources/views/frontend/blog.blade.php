@@ -1,6 +1,10 @@
 @extends('frontend.main_master')
 @section('main')
 
+@section('title')
+Blog | O'buchi Multimedia
+
+@endsection
 
         <!-- main-area -->
         <main>

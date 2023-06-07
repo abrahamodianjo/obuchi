@@ -7,6 +7,11 @@ $allfooter = App\Models\Footer::find(1);
 
 @endphp
 
+@section('title')
+Contact | O'buchi Multimedia
+
+@endsection
+
 <main>
 
 <!-- breadcrumb-area -->

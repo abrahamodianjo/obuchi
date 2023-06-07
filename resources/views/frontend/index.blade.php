@@ -1,5 +1,10 @@
 @extends('frontend.main_master')
 @section('main')
+
+@section('title')
+Home | O'buchi Multimedia
+
+@endsection
             <!-- banner-area -->
            @include('frontend.home_all.home_slide')
             <!-- banner-area-end -->
