@@ -29,7 +29,7 @@ $blogs = App\Models\Blog::latest()->limit(3)->get();
 
                     </div>
                     <div class="blog__button text-center">
-                        <a href="blog.html" class="btn">more blog</a>
+                        <a href="{{ route('home.blog') }}" class="btn">more blog</a>
                     </div>
                 </div>
             </section>

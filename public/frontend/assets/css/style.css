@@ -4891,7 +4891,7 @@ Breadcrumb
     color: #fff;
     font-size: 15px; }
     .footer__widget__address .mail:hover {
-      color: #000000; }
+      color: #F00000; }
   .footer__social__list {
     display: flex;
     align-items: center;
