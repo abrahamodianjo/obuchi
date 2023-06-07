@@ -19,7 +19,7 @@ class BlogController extends Controller
     }//End Methiod for All Portfolio display
 
     public function AddBlog(){
-        $categories = BlogCategory::orderBy('blog_category', 'AsC')->get();
+        $categories = BlogCategory::orderBy('blog_category', 'ASC')->get();
         return view('admin.blogs.blogs_add', compact('categories'));
 
 
@@ -59,7 +59,7 @@ class BlogController extends Controller
     public function EditBlog($id){
 
             $blogs = Blog::findOrFail($id);
-            $categories = BlogCategory::orderBy('blog_category', 'AsC')->get();
+            $categories = BlogCategory::orderBy('blog_category', 'ASC')->get();
             return view('admin.blogs.blogs_edit', compact('blogs','categories'));
 
     }//End Method to edit  Blog data
@@ -133,11 +133,31 @@ class BlogController extends Controller
     }
     
 
-//     public function BlogDetails($id){
+        public function BlogDetails($id){
 
-//         $blogs = Blog::findOrFail($id);
-//         return view('frontend.protfolio_details',compact('portfolio'));
-        
-// } //End Method  for Portfoliio Details 
+            $allblogs = Blog::latest()->limit(5)->get();
+            $blogs = Blog::findOrFail($id);
+            $categories = BlogCategory::orderBy('blog_category', 'ASC')->get();
+            return view('frontend.blog_details',compact('blogs', 'allblogs', 'categories'));
+            
+    } //End Method  for Blog Details 
+
+    public function CategoryBlog($id){
+
+        $blogpost = Blog::where('blog_category_id', $id)->orderBy('id', 'DESC')->get();
+        $categories = BlogCategory::orderBy('blog_category', 'ASC')->get();
+        $allblogs = Blog::latest()->limit(5)->get();
+        $categoryname = BlogCategory::findOrFail($id); 
+        return view('frontend.cat_blog_details', compact('blogpost', 'allblogs', 'categories', 'categoryname'));
+
+    }//End Method  for Blog Category Details 
+
+    public function HomeBlog(){
+
+        $categories = BlogCategory::orderBy('blog_category', 'ASC')->get();
+        $allblogs = Blog::latest()->get();
+        return view('frontend.blog', compact('allblogs', 'categories'));
+
+    }//End Method  for showing all lqatest Blog  data
 }
 
