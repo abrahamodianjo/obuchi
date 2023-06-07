@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 
 class DemoController extends Controller
 {
+    public function HomeMain(){
+        return view('frontend.index');
+
+    }// End Home method
+
     public function Index(){
         return view('about');
 
