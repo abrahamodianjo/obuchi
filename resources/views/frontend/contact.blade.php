@@ -134,13 +134,13 @@ $allfooter = App\Models\Footer::find(1);
                 </div>
                 <div class="col-lg-6">
                     <div class="homeContact__form">
-                        <form action="#">
-                            <input type="text" placeholder="Enter name*">
-                            <input type="email" placeholder="Enter mail*">
-                            <input type="number" placeholder="Enter number*">
-                            <textarea name="message" placeholder="Enter Massage*"></textarea>
-                            <button type="submit">Send Message</button>
-                        </form>
+                    <form action="#">
+                        <input type="text" placeholder="Enter name*">
+                        <input type="email" placeholder="Enter mail*">
+                        <input type="number" placeholder="Enter number*">
+                        <textarea name="message" placeholder="Enter Massage*"></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
                     </div>
                 </div>
             </div>
