@@ -69,8 +69,9 @@ Blog | O'buchi Multimedia
                            
                           
                             <div class="pagination-wrap">
+                            
                                 
-                            {{$allblogs->links()}}  
+                          {{$allblogs->links('vendor.pagination.custom')}}
 
                             </div>
 
