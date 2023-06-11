@@ -389,11 +389,11 @@ About | O'buchi Multimedia
                                 <i class="fas fa-quote-left"></i>
                             </div>
                             <div class="testimonial__content">
-                                <p>We are motivated by the satisfaction of our clients. Put your trust in us &share in our H.Spond Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous.</p>
+                                <p>this company's Media Services & Branding offerings, Project Management expertise, CSR initiatives, and Website & Design capabilities make them a highly reliable and valuable partner for businesses seeking effective communication strategies, successful project execution, and impactful social contributions.</p>
                                 <div class="testimonial__avatar">
-                                    <span>WPBakery/ uSA</span>
+                                    <span> Baceni Leather World </span>
                                     <div class="testi__avatar__img">
-                                        <img src="assets/img/images/testi_avatar01.png" alt="">
+                                        <img src="{{asset('frontend/assets/img/images/testi_avatar01.png')}}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -403,11 +403,11 @@ About | O'buchi Multimedia
                                 <i class="fas fa-quote-left"></i>
                             </div>
                             <div class="testimonial__content">
-                                <p>We are motivated by the satisfaction of our clients. Put your trust in us &share in our H.Spond Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous.</p>
+                                <p>O'buchi multimedia's Website & Design services are exceptional. They offer professional website design for company profiles, enabling businesses to establish a strong online presence. By creating visually appealing and user-friendly websites, they effectively drive traffic and increase visibility for their clients.</p>
                                 <div class="testimonial__avatar">
-                                    <span>Adobe Photoshop</span>
+                                    <span>Dians Digital</span>
                                     <div class="testi__avatar__img">
-                                        <img src="assets/img/images/testi_avatar02.png" alt="">
+                                        <img src="{{asset('frontend/assets/img/images/testi_avatar02.png')}}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -431,62 +431,9 @@ About | O'buchi Multimedia
 </section>
 <!-- testimonial-area-end -->
 
-<!-- blog-area -->
-<section class="blog blog__style__two">
-    <div class="container">
-        <div class="row gx-0 justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-9">
-                <div class="blog__post__item">
-                    <div class="blog__post__thumb">
-                        <a href="blog-details.html"><img src="assets/img/blog/blog_post_thumb01.jpg" alt=""></a>
-                        <div class="blog__post__tags">
-                            <a href="blog.html">Story</a>
-                        </div>
-                    </div>
-                    <div class="blog__post__content">
-                        <span class="date">13 january 2021</span>
-                        <h3 class="title"><a href="blog-details.html">Facebook design is dedicated to what's new in design</a></h3>
-                        <a href="blog-details.html" class="read__more">Read mORe</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-9">
-                <div class="blog__post__item">
-                    <div class="blog__post__thumb">
-                        <a href="blog-details.html"><img src="assets/img/blog/blog_post_thumb02.jpg" alt=""></a>
-                        <div class="blog__post__tags">
-                            <a href="blog.html">Social</a>
-                        </div>
-                    </div>
-                    <div class="blog__post__content">
-                        <span class="date">13 january 2021</span>
-                        <h3 class="title"><a href="blog-details.html">Make communication Fast and Effectively.</a></h3>
-                        <a href="blog-details.html" class="read__more">Read mORe</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-9">
-                <div class="blog__post__item">
-                    <div class="blog__post__thumb">
-                        <a href="blog-details.html"><img src="assets/img/blog/blog_post_thumb03.jpg" alt=""></a>
-                        <div class="blog__post__tags">
-                            <a href="blog.html">Work</a>
-                        </div>
-                    </div>
-                    <div class="blog__post__content">
-                        <span class="date">13 january 2021</span>
-                        <h3 class="title"><a href="blog-details.html">How to increase your productivity at work - 2021</a></h3>
-                        <a href="blog-details.html" class="read__more">Read mORe</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="blog__button text-center">
-            <a href="blog.html" class="btn">more blog</a>
-        </div>
-    </div>
-</section>
-<!-- blog-area-end -->
+ <!-- blog-area -->
+ @include('frontend.home_all.home_blog')
+ <!-- blog-area-end -->
 
 <!-- contact-area -->
 <section class="homeContact">
