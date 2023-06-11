@@ -15,10 +15,12 @@ Blog | O'buchi Multimedia
                     <div class="row justify-content-center">
                         <div class="col-xl-6 col-lg-8 col-md-10">
                             <div class="breadcrumb__wrap__content">
-                                <h2 class="title"> All Blogs</h2>
+                                <h2 class="title"> Welcome to our Blog </h2>
+                                <p>here you can get the latest news of obuchi multimedia </p>
+                              
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Blog  </li>
                                     </ol>
                                 </nav>
@@ -55,7 +57,7 @@ Blog | O'buchi Multimedia
                                 <div class="standard__blog__content">
                                     <div class="blog__post__avatar">
                                         <div class="thumb"><img src="{{asset($item->blog_image)}}" alt=""></div>
-                                        <span class="post__by">By : <a href="#">Halina Spond</a></span>
+                                        <span class="post__by">By : <a href="https://www.linkedin.com/in/onyebuchi-odianjo-anipr-647759132/" target="_blank">Onyebuchi Odianjo</a></span>
                                     </div>
                                     <h2 class="title"><a href="{{route('blog.details', $item->id)}}">{{$item->blog_title}}</h2>
                                     <p>{!! Str::limit($item->blog_description, 200) !!}</p>

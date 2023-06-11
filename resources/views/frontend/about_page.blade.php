@@ -24,7 +24,7 @@ About | O'buchi Multimedia
                     <h2 class="title">About Us</h2>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">About Me</li>
                         </ol>
                     </nav>
@@ -128,63 +128,7 @@ About | O'buchi Multimedia
 </section>
 <!-- services-area-end -->
 
-<!-- testimonial-area -->
-<section class="testimonial testimonial__style__two">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-9 col-lg-11">
-                <div class="testimonial__wrap">
-                    <div class="section__title text-center">
-                        <span class="sub-title"> Client Feedback</span>
-                        <h2 class="title">Some happy clients feedback</h2>
-                    </div>
-                    <div class="testimonial__two__active">
-                        <div class="testimonial__item">
-                            <div class="testimonial__icon">
-                                <i class="fas fa-quote-left"></i>
-                            </div>
-                            <div class="testimonial__content">
-                                <p>this company's Media Services & Branding offerings, Project Management expertise, CSR initiatives, and Website & Design capabilities make them a highly reliable and valuable partner for businesses seeking effective communication strategies, successful project execution, and impactful social contributions.</p>
-                                <div class="testimonial__avatar">
-                                    <span> Baceni Leather World </span>
-                                    <div class="testi__avatar__img">
-                                        <img src="{{asset('frontend/assets/img/images/testi_avatar01.png')}}" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial__item">
-                            <div class="testimonial__icon">
-                                <i class="fas fa-quote-left"></i>
-                            </div>
-                            <div class="testimonial__content">
-                                <p>O'buchi multimedia's Website & Design services are exceptional. They offer professional website design for company profiles, enabling businesses to establish a strong online presence. By creating visually appealing and user-friendly websites, they effectively drive traffic and increase visibility for their clients.</p>
-                                <div class="testimonial__avatar">
-                                    <span>Dians Digital</span>
-                                    <div class="testi__avatar__img">
-                                        <img src="{{asset('frontend/assets/img/images/testi_avatar02.png')}}" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial__arrow"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="testimonial__two__icons">
-        <ul>
-            <li><img src="assets/img/icons/testi_shape01.png" alt=""></li>
-            <li><img src="assets/img/icons/testi_shape02.png" alt=""></li>
-            <li><img src="assets/img/icons/testi_shape03.png" alt=""></li>
-            <li><img src="assets/img/icons/testi_shape04.png" alt=""></li>
-            <li><img src="assets/img/icons/testi_shape05.png" alt=""></li>
-            <li><img src="assets/img/icons/testi_shape06.png" alt=""></li>
-        </ul>
-    </div>
-</section>
-<!-- testimonial-area-end -->
+
 
  <!-- blog-area -->
  @include('frontend.home_all.home_blog')

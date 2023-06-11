@@ -98,40 +98,29 @@ Home | O'buchi Multimedia
             
             <!-- portfolio-area-end -->
 
-            <!-- partner-area -->
-            @include('frontend.home_all.clients')
-            <!-- partner-area-end -->
-
+           
             <!-- testimonial-area -->
-            <section class="testimonial">
+            <section class="testimonial testimonial__style__two">
                 <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-lg-6 order-0 order-lg-2">
-                            <ul class="testimonial__avatar__img">
-                                <li><img src="assets/img/images/testi_img01.png" alt=""></li>
-                                <li><img src="assets/img/images/testi_img02.png" alt=""></li>
-                                <li><img src="assets/img/images/testi_img03.png" alt=""></li>
-                                <li><img src="assets/img/images/testi_img04.png" alt=""></li>
-                                <li><img src="assets/img/images/testi_img05.png" alt=""></li>
-                                <li><img src="assets/img/images/testi_img06.png" alt=""></li>
-                                <li><img src="assets/img/images/testi_img07.png" alt=""></li>
-                            </ul>
-                        </div>
-                        <div class="col-xl-5 col-lg-6">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-9 col-lg-11">
                             <div class="testimonial__wrap">
-                                <div class="section__title">
-                                    <span class="sub-title">06 - Client Feedback</span>
-                                    <h2 class="title">Happy clients feedback</h2>
+                                <div class="section__title text-center">
+                                    <span class="sub-title"> Client Feedback</span>
+                                    <h2 class="title">Some happy clients feedback</h2>
                                 </div>
-                                <div class="testimonial__active">
+                                <div class="testimonial__two__active">
                                     <div class="testimonial__item">
                                         <div class="testimonial__icon">
                                             <i class="fas fa-quote-left"></i>
                                         </div>
                                         <div class="testimonial__content">
-                                            <p>We are motivated by the satisfaction of our clients. Put your trust in us &share in our H.Spond Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous.</p>
+                                            <p>this company's Media Services & Branding offerings, Project Management expertise, CSR initiatives, and Website & Design capabilities make them a highly reliable and valuable partner for businesses seeking effective communication strategies, successful project execution, and impactful social contributions.</p>
                                             <div class="testimonial__avatar">
-                                                <span>Rasalina De Wiliamson</span>
+                                                <span> Baceni Leather World </span>
+                                                <div class="testi__avatar__img">
+                                                    <img src="{{asset('frontend/assets/img/images/testi_avatar01.png')}}" alt="">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -140,9 +129,12 @@ Home | O'buchi Multimedia
                                             <i class="fas fa-quote-left"></i>
                                         </div>
                                         <div class="testimonial__content">
-                                            <p>We are motivated by the satisfaction of our clients. Put your trust in us &share in our H.Spond Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous.</p>
+                                            <p>O'buchi multimedia's Website & Design services are exceptional. They offer professional website design for company profiles, enabling businesses to establish a strong online presence. By creating visually appealing and user-friendly websites, they effectively drive traffic and increase visibility for their clients.</p>
                                             <div class="testimonial__avatar">
-                                                <span>Rasalina De Wiliamson</span>
+                                                <span>Dians Digital</span>
+                                                <div class="testi__avatar__img">
+                                                    <img src="{{asset('frontend/assets/img/images/testi_avatar02.png')}}" alt="">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -152,8 +144,23 @@ Home | O'buchi Multimedia
                         </div>
                     </div>
                 </div>
+                <div class="testimonial__two__icons">
+                    <ul>
+                        <li><img src="assets/img/icons/testi_shape01.png" alt=""></li>
+                        <li><img src="assets/img/icons/testi_shape02.png" alt=""></li>
+                        <li><img src="assets/img/icons/testi_shape03.png" alt=""></li>
+                        <li><img src="assets/img/icons/testi_shape04.png" alt=""></li>
+                        <li><img src="assets/img/icons/testi_shape05.png" alt=""></li>
+                        <li><img src="assets/img/icons/testi_shape06.png" alt=""></li>
+                    </ul>
+                </div>
             </section>
             <!-- testimonial-area-end -->
+
+             <!-- partner-area -->
+             @include('frontend.home_all.clients')
+            <!-- partner-area-end -->
+
 
             <!-- blog-area -->
             @include('frontend.home_all.home_blog')
