@@ -1,6 +1,12 @@
 @extends('frontend.main_master')
 @section('main')
 
+@php
+
+$allfooter = App\Models\Footer::find(1);
+
+@endphp
+
 @section('title')
 About | O'buchi Multimedia
 
@@ -442,17 +448,18 @@ About | O'buchi Multimedia
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section__title">
-                        <span class="sub-title">07 - Say hello</span>
-                        <h2 class="title">Any questions? Feel free <br> to contact</h2>
+
+                        <h2 class="title">Any questions?</h2>
                     </div>
                     <div class="homeContact__content">
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                        <h2 class="mail"><a href="mailto:Info@webmail.com">Info@webmail.com</a></h2>
+                        <p> Feel free to contact us for further information or clarification.We are here to assist you and address any inquiries you may have.</p>
+                        <h2 class="mail"><a href="mailto:Info@webmail.com">{{ $allfooter->email }}</a></h2>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="homeContact__form">
-                        <form action="#">
+                    <form method="post" action="{{route('store.message')}}" >
+                         @csrf
                             <input type="text" placeholder="Enter name*">
                             <input type="email" placeholder="Enter mail*">
                             <input type="number" placeholder="Enter number*">

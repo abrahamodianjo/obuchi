@@ -46,7 +46,7 @@ Contact | O'buchi Multimedia
 
 <!-- contact-map -->
 <div id="contact-map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.39147750482!2d7.49394780000001!3d9.028006700000011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b88431ac045%3A0xd84818b28d842751!2sGarki%20Mall!5e0!3m2!1sen!2sng!4v1686480869336!5m2!1sen!2sng"
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.39147750482!2d7.49394780000001!3d9.028006700000011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b88431ac045%3A0xd84818b28d842751!2sGarki%20Mall!5e0!3m2!1sen!2sng!4v1686480869336!5m2!1sen!2sng"
      allowfullscreen loading="lazy"></iframe>
     
 </div>
@@ -123,37 +123,7 @@ Contact | O'buchi Multimedia
 </section>
 <!-- contact-info-area-end -->
 
-<!-- contact-area -->
-<section class="homeContact homeContact__style__two">
-    <div class="container">
-        <div class="homeContact__wrap">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="section__title">
-                        <span class="sub-title">07 - Say hello</span>
-                        <h2 class="title">Any questions? Feel free <br> to contact</h2>
-                    </div>
-                    <div class="homeContact__content">
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                        <h2 class="mail"><a href="mailto:Info@webmail.com">Info@webmail.com</a></h2>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="homeContact__form">
-                    <form action="#">
-                        <input type="text" placeholder="Enter name*">
-                        <input type="email" placeholder="Enter mail*">
-                        <input type="number" placeholder="Enter number*">
-                        <textarea name="message" placeholder="Enter Massage*"></textarea>
-                        <button type="submit">Send Message</button>
-                    </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- contact-area-end -->
+
 
 </main>
 

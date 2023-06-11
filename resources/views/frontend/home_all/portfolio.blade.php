@@ -26,7 +26,9 @@
 
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img href="{{route('portfolio.details', $item->id)}}" src="{{asset($item->portfolio_image)}}" alt="">
+                                            <a href="{{route('portfolio.details', $item->id)}}">
+                                             <img  src="{{ asset($item->portfolio_image) }}" alt="">
+                                            </a>
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>{{$item->portfolio_name}}</span>

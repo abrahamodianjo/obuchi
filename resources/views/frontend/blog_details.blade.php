@@ -1,6 +1,11 @@
 @extends('frontend.main_master')
 @section('main')
 
+@php
+
+$allfooter = App\Models\Footer::find(1);
+
+@endphp
         <!-- main-area -->
         <main>
 
@@ -104,7 +109,38 @@
             </section>
             <!-- blog-details-area-end -->
 
+<!-- contact-area -->
+<section class="homeContact">
+    <div class="container">
+        <div class="homeContact__wrap">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section__title">
 
+                        <h2 class="title">Any questions?</h2>
+                    </div>
+                    <div class="homeContact__content">
+                        <p> Feel free to contact us for further information or clarification.We are here to assist you and address any inquiries you may have.</p>
+                        <h2 class="mail"><a href="mailto:Info@webmail.com">{{ $allfooter->email }}</a></h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="homeContact__form">
+                    <form method="post" action="{{route('store.message')}}" >
+                         @csrf
+                            <input type="text" placeholder="Enter name*">
+                            <input type="email" placeholder="Enter mail*">
+                            <input type="number" placeholder="Enter number*">
+                            <textarea name="message" placeholder="Enter Massage*"></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact-area-end -->
            
 
         </main>
