@@ -18,7 +18,7 @@
 
                          
                 
-                        <li>
+                         <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
                                 <i class="ri-mail-send-line"></i>
                                 <span>Home Slide Setup</span>
@@ -27,9 +27,9 @@
                                 <li><a href="{{route('home.slide')}}">Home Slide</a></li>
                                
                             </ul>
-                        </li>
+                         </li>
 
-                        <li>
+                         <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
                                 <i class="ri-mail-send-line"></i>
                                 <span>About Page Setup</span>
@@ -40,9 +40,9 @@
 
                                 <li><a href="{{route('all.multi.image')}}">All Multi Image</a></li>
                             </ul>
-                        </li>
+                         </li>
 
-                        <li>
+                         <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
                                 <i class="ri-mail-send-line"></i>
                                 <span>Portfolio Page Setup</span>
@@ -53,7 +53,21 @@
 
                               
                             </ul>
-                        </li>
+                         </li>
+
+                         <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="ri-mail-send-line"></i>
+                                <span>Services Page Setup</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="{{route('all.services')}}">All Services</a></li>
+                                <li><a href="{{route('add.services')}}">Add Services</a></li>
+                               
+
+                              
+                            </ul>
+                         </li>
 
 
                             
