@@ -2641,6 +2641,39 @@ Breadcrumb
         background: #f00;
         border-color: #f00;
         color: #fff; }
+
+        .services__arrow-2 {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end; }
+          .services__arrow-2 .slick-arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+            width: 55px;
+            height: 55px;
+            flex: 0 0 55px;
+            padding: 0;
+            border-radius: 50%;
+            border: 2px solid #000;
+            color: #191B1E;
+            font-size: 18px;
+            -webkit-transition: all 0.3s ease-out 0s;
+            -moz-transition: all 0.3s ease-out 0s;
+            -ms-transition: all 0.3s ease-out 0s;
+            -o-transition: all 0.3s ease-out 0s;
+            transition: all 0.3s ease-out 0s; }
+            .services__arrow-2 .slick-arrow.slick-next {
+              margin-left: 15px; }
+            .services__arrow-2 .slick-arrow:hover {
+              background: #f00;
+              border-color: #f00;
+              color: #fff; }
+
+
+
+
   .services__item {
     margin-bottom: 30px;
     background: #fff; }
@@ -2716,7 +2749,31 @@ Breadcrumb
     padding-right: 2px; }
     @media (max-width: 767.98px) {
       .services__active .slick-list {
-        padding-right: 0; } }
+        padding-right: 0; }
+
+      }
+
+
+
+      .services__active-2 .slick-slide .services__item {
+        margin-left: 2px; }
+        @media (max-width: 767.98px) {
+          .services__active-2 .slick-slide .services__item {
+            margin-left: 0; } }
+      .services__active-2 .slick-slide.slick-active .services__item {
+        margin-left: -2px; }
+        @media (max-width: 767.98px) {
+          .services__active-2 .slick-slide.slick-active .services__item {
+            margin-left: 0; } }
+      .services__active-2 .slick-current.slick-active .services__item {
+        margin-left: 0; }
+      .services__active-2 .slick-list {
+        padding-right: 2px; }
+        @media (max-width: 767.98px) {
+          .services__active-2 .slick-list {
+            padding-right: 0; }
+    
+          }
 
 .services__style__two {
   background: #F7F7F7;

@@ -12,6 +12,7 @@ use App\Http\Controllers\Home\BlogController;
 use App\Http\Controllers\Home\FooterController;
 use App\Http\Controllers\Home\ContactController;
 use App\Http\Controllers\Home\ServicesController;
+use App\Http\Controllers\Home\ClientsController;
 
 
 
@@ -99,6 +100,21 @@ Route::controller(ServicesController::class)->group(function () {
     Route::get('/edit/services/{id}', 'EditServices')->name('edit.services');
     Route::post('/update/services', 'UpdateServices')->name('update.services');
     Route::get('/delete/services/{id}', 'DeleteServices')->name('delete.services');
+    
+    
+
+  
+   
+});
+
+//Clients All Route
+Route::controller(ClientsController::class)->group(function () {
+    Route::get('/all/clients', 'AllClients')->name('all.clients');
+    Route::get('/add/clients', 'AddClients')->name('add.clients');
+    Route::post('/store/clients', 'StoreClients')->name('store.clients');
+    Route::get('/edit/clients/{id}', 'EditClients')->name('edit.clients');
+    Route::post('/update/clients', 'UpdateClients')->name('update.clients');
+    Route::get('/delete/clients/{id}', 'DeleteClients')->name('delete.clients');
     
     
 

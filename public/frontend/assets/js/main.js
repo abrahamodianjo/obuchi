@@ -199,6 +199,53 @@ $('.services__active').slick({
 	]
 });
 
+$('.services__active-2').slick({
+	dots: false,
+	infinite: true,
+	speed: 1000,
+	autoplay: false,
+	arrows: true,
+	slidesToShow: 4,
+	slidesToScroll: 1,
+	prevArrow: '<button class="slick-prev"><i class="far fa-long-arrow-left"></i></button>',
+	nextArrow: '<button class="slick-next"><i class="far fa-long-arrow-right"></i></button>',
+	appendArrows: ".services__arrow-2",
+	responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				infinite: true,
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1
+			}
+		},
+		{
+			breakpoint: 767,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				arrows: false,
+			}
+		},
+		{
+			breakpoint: 575,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				autoplay: true,
+				arrows: false,
+			}
+		},
+	]
+});
+
 
 /*=============================================
 	=    		Portfolio Active		      =
