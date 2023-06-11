@@ -69,13 +69,11 @@ Blog | O'buchi Multimedia
                            
                           
                             <div class="pagination-wrap">
-                                <nav aria-label="Page navigation example">
-                                    <ul class="pagination">
-                                        <li class="page-item"><a class="page-link" href="#">
-                                            <i class="far fa-long-arrow-left"></i></a></li>
-                                         </ul>
-                                </nav>
+                                
+                            {{$allblogs->links()}}  
+
                             </div>
+
                         </div>
                         <div class="col-lg-4">
                             <aside class="blog__sidebar">
