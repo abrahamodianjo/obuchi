@@ -21,7 +21,7 @@
                          <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
                                 <i class="ri-home-4-line "></i>
-                                <span>Home Slide Setup</span>
+                                <span>Home Slide</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
                                 <li><a href="{{route('home.slide')}}">View home slide</a></li>
@@ -32,7 +32,7 @@
                          <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
                                 <i class=" ri-profile-line "></i>
-                                <span>About Page Setup</span>
+                                <span>About Page</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
                                 <li><a href="{{route('about.page')}}">View about Page</a></li>
@@ -45,7 +45,7 @@
                          <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
                                 <i class="ri-book-mark-line "></i>
-                                <span>Portfolio Page Setup</span>
+                                <span>Portfolio Page</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
                                 <li><a href="{{route('all.portfolio')}}">View all portfolios</a></li>
@@ -58,7 +58,7 @@
                          <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
                                 <i class="ri-customer-service-2-fill "></i>
-                                <span>Services Page Setup</span>
+                                <span>Services Page</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">View all services</a></li>
                                 <li><a href="{{route('add.services')}}">Add new service</a></li>
@@ -68,19 +68,7 @@
                             </ul>
                          </li>
 
-                         <li>
-                            <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                <i class="ri-team-line"></i>
-                                <span>Clients Page Setup</span>
-                            </a>
-                            <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="{{route('all.clients')}}">All clients</a></li>
-                                <li><a href="{{route('add.clients')}}">Add client</a></li>
-                               
-
-                              
-                            </ul>
-                         </li>
+                        
                          <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
                                     <i class="fab fa-blogger"></i>
@@ -114,8 +102,8 @@
 
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="mdi-page-layout-footer"></i>
-                                    <span>Footer Page Setup </span>
+                                    <i class="mdi mdi-page-layout-footer"></i>
+                                    <span>Footer Page</span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
                                     <li><a href="{{route('footer.setup')}}">Footer Setup</a></li>
@@ -126,16 +114,28 @@
 
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="mdi-contacts"></i>
-                                    <span>Contact Message </span>
+                                    <i class="mdi mdi-contacts"></i>
+                                    <span>Contact Messages </span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="{{ route('contact.message') }}">Contact Message</a></li>
+                                    <li><a href="{{ route('contact.message') }}">View contact messages</a></li>
                                     
                                    
                                 </ul>
                             </li>
+                            <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="ri-team-line"></i>
+                                <span>Clients Section</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="{{route('all.clients')}}">All clients</a></li>
+                                <li><a href="{{route('add.clients')}}">Add client</a></li>
+                               
 
+                              
+                            </ul>
+                         </li>
                           
 
                             
