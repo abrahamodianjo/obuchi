@@ -20,36 +20,36 @@
                 
                          <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                <i class="ri-mail-send-line"></i>
+                                <i class="ri-home-4-line "></i>
                                 <span>Home Slide Setup</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="{{route('home.slide')}}">Home Slide</a></li>
+                                <li><a href="{{route('home.slide')}}">View home slide</a></li>
                                
                             </ul>
                          </li>
 
                          <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                <i class="ri-mail-send-line"></i>
+                                <i class=" ri-profile-line "></i>
                                 <span>About Page Setup</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="{{route('about.page')}}">About Page</a></li>
-                                <li><a href="{{route('about.multi.image')}}">About Multi Image</a></li>
+                                <li><a href="{{route('about.page')}}">View about Page</a></li>
+                                <li><a href="{{route('about.multi.image')}}">Add multiple images for about section</a></li>
 
-                                <li><a href="{{route('all.multi.image')}}">All Multi Image</a></li>
+                                <li><a href="{{route('all.multi.image')}}">View All Multiple Image</a></li>
                             </ul>
                          </li>
 
                          <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                <i class="ri-mail-send-line"></i>
+                                <i class="ri-book-mark-line "></i>
                                 <span>Portfolio Page Setup</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="{{route('all.portfolio')}}">All Portfolio</a></li>
-                                <li><a href="{{route('add.portfolio')}}">Add Portfolio</a></li>
+                                <li><a href="{{route('all.portfolio')}}">View all portfolios</a></li>
+                                <li><a href="{{route('add.portfolio')}}">Add new portfolio</a></li>
 
                               
                             </ul>
@@ -57,12 +57,11 @@
 
                          <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                <i class="ri-mail-send-line"></i>
+                                <i class="ri-customer-service-2-fill "></i>
                                 <span>Services Page Setup</span>
                             </a>
-                            <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="{{route('all.services')}}">All Services</a></li>
-                                <li><a href="{{route('add.services')}}">Add Services</a></li>
+                            <ul class="sub-menu" aria-expanded="false">View all services</a></li>
+                                <li><a href="{{route('add.services')}}">Add new service</a></li>
                                
 
                               
@@ -71,7 +70,7 @@
 
                          <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                <i class="ri-mail-send-line"></i>
+                                <i class="ri-team-line"></i>
                                 <span>Clients Page Setup</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
@@ -82,39 +81,40 @@
                               
                             </ul>
                          </li>
-
-
-                            
-
-                            <li class="menu-title">Pages</li>
-
+                         <li>
+                                <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                    <i class="fab fa-blogger"></i>
+                                    <span>Blog </span>
+                                </a>
+                                <ul class="sub-menu" aria-expanded="false">
+                                    <li><a href="{{route('all.blog')}}">View all Blog post</a></li>
+                                    <li><a href="{{route('add.blog')}}">Add new Blog post</a></li>
+                                   
+                                </ul>
+                            </li>
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="ri-account-circle-line"></i>
+                                    <i class="fab fa-microblog "></i>
                                     <span>Blog Category</span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="{{route('all.blog.category')}}">View all Blog category</a></li>
-                                    <li><a href="{{route('add.blog.category')}}">Add Blog Category</a></li>
+                                <li><a href="{{route('all.blog.category')}}">View all blog category</a></li>
+                                    <li><a href="{{route('add.blog.category')}}">Add new blog category</a></li>
                                    
                                 </ul>
                             </li>
 
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="ri-profile-line"></i>
-                                    <span>Blog Page </span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="{{route('all.blog')}}">All Blog</a></li>
-                                    <li><a href="{{route('add.blog')}}">Add Blog</a></li>
-                                   
-                                </ul>
-                            </li>
+                            
+
+                            <li class="menu-title">Others</li>
+
+                            
+
+                            
 
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="ri-profile-line"></i>
+                                    <i class="mdi-page-layout-footer"></i>
                                     <span>Footer Page Setup </span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
@@ -126,7 +126,7 @@
 
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="ri-profile-line"></i>
+                                    <i class="mdi-contacts"></i>
                                     <span>Contact Message </span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">

@@ -54,7 +54,7 @@
                                                
                                                 <td>{{Carbon\Carbon::parse($item->created_at)->diffForHumans()}}</td>
                                                 <td>
-                                                <a href="{{ route('open.message', $item->id) }}"  class="btn btn-danger sm" title="Open Data"> <i class="fas fa-trash-alt "></i> </a>
+                                                <a href="{{ route('open.message', $item->id) }}"  class="btn btn-primary sm" title="Open Data"> <i class="ri-mail-open-fill"></i> </a>
                                               <a href="{{ route('delete.message', $item->id) }}"  class="btn btn-danger sm" title="Delete Data" id="delete"> <i class="fas fa-trash-alt "></i> </a>
                                                 </td>
                                            
