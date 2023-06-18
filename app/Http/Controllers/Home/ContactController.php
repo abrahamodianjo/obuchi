@@ -48,4 +48,9 @@ class ContactController extends Controller
         return redirect()->back()->with($notification);
     }//End contact message method for delete
 
+    Public function OpenMessage($id){
+        $contacts = Contact::findOrFail($id);
+        return view('admin.contact.open_message', compact('contacts'));
+    }
+
 }
