@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="  {{asset('frontend/assets/css/style.css')}}">
         <link rel="stylesheet" href="  {{asset('frontend/assets/css/responsive.css')}}">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
-
+       
        
     </head>
     <body>
@@ -58,6 +58,8 @@
 
 
 		<!-- JS here -->
+		
+		 <script src="//code.tidio.co/0hyx55lmhcfnsebg6lbwpaqutbe9tv2a.js" async></script>
         <script src=" {{asset('frontend/assets/js/vendor/jquery-3.6.0.min.js')}}"></script>
         <script src=" {{asset('frontend/assets/js/bootstrap.min.js')}}"></script>
         <script src=" {{asset('frontend/assets/js/isotope.pkgd.min.js')}}"></script>

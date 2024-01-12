@@ -52,7 +52,7 @@ $allfooter = App\Models\Footer::find(1);
                     <div class="row">
                         <div class="col-12">
                             <div class="copyright__text text-center">
-                                <p>{{ $allfooter->copyright }}</p>
+                                <p>{{ $allfooter->copyright }}</p><a href="https://www.linkedin.com/in/abraham-odianjo/" target="_blank">Abraham Odianjo</a>
                             </div>
                         </div>
                     </div>

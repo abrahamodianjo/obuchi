@@ -7,6 +7,12 @@ $blogs = App\Models\Blog::latest()->limit(3)->get();
 
 <section class="blog">
                 <div class="container">
+                     <div class="col-xl-5 col-lg-6 col-md-8">
+                                <div class="section__title">
+                                    <span class="sub-title">02 - Our Blog</span>
+                                    <h2 class="title">check out our latest posts and updates </h2>
+                                </div>
+                            </div>
                     <div class="row gx-0 justify-content-center">
 
                     @foreach($blogs as $item)
@@ -29,7 +35,7 @@ $blogs = App\Models\Blog::latest()->limit(3)->get();
 
                     </div>
                     <div class="blog__button text-center">
-                        <a href="{{ route('home.blog') }}" class="btn">more blog</a>
+                        <a href="{{ route('home.blog') }}" class="btn">Read More blog Post</a>
                     </div>
                 </div>
             </section>

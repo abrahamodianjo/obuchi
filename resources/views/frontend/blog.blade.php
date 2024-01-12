@@ -57,7 +57,7 @@ Blog | O'buchi Multimedia
                                 <div class="standard__blog__content">
                                     <div class="blog__post__avatar">
                                         <div class="thumb"><img src="{{asset($item->blog_image)}}" alt=""></div>
-                                        <span class="post__by">By : <a href="https://www.linkedin.com/in/onyebuchi-odianjo-anipr-647759132/" target="_blank">Onyebuchi Odianjo</a></span>
+                                        <span class="post__by">By : <a href="https://www.linkedin.com/abraham-odianjo/" target="_blank">Abraham Odianjo</a></span>
                                     </div>
                                     <h2 class="title"><a href="{{route('blog.details', $item->id)}}">{{$item->blog_title}}</h2>
                                     <p>{!! Str::limit($item->blog_description, 200) !!}</p>
@@ -94,10 +94,10 @@ Blog | O'buchi Multimedia
                                     @foreach($allblogs as $all)
                                         <li class="rc__post__item">
                                             <div class="rc__post__thumb">
-                                                <a href="blog-details.html"><img src="{{asset($all->blog_image)}}" alt=""></a>
+                                                <a href="{{route('blog.details', $item->id)}}"><img src="{{asset($all->blog_image)}}" alt=""></a>
                                             </div>
                                             <div class="rc__post__content">
-                                                <h5 class="title"><a href="blog-details.html">{{$all->blog_title}}</a></h5>
+                                                <h5 class="title"><a href="{{route('blog.details', $item->id)}}">{{$all->blog_title}}</a></h5>
                                                 <span class="post-date"><i class="fal fa-calendar-alt"></i>  {{Carbon\Carbon::parse($all->created_at)->diffForHumans() }}</span>
                                             </div>
                                         </li>
@@ -112,11 +112,12 @@ Blog | O'buchi Multimedia
                                     @endforeach
                                     </ul>
                                 </div>
-                                </div>
+                                
                             </aside>
                         </div>
+                        </div>
                     </div>
-                </div>
+               
             </section>
             <!-- blog-area-end -->
 

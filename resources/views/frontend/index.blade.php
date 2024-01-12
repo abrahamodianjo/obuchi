@@ -18,7 +18,9 @@ Home | O'buchi Multimedia
             <!-- about-area -->
             @include('frontend.home_all.home_about')
             <!-- about-area-end -->
-
+            <!-- blog-area -->
+            @include('frontend.home_all.home_blog')
+         <!-- blog-area-end -->
             <!-- services-area -->
             @include('frontend.home_all.services')
             <!-- services-area-end -->
@@ -29,7 +31,7 @@ Home | O'buchi Multimedia
                     <div class="row justify-content-center">
                         <div class="col-xl-6 col-lg-8">
                             <div class="section__title text-center">
-                                <span class="sub-title">03 - Working Process</span>
+                                <span class="sub-title">04 - Working Process</span>
                                 <h2 class="title">A clear product design process is the basis of success</h2>
                             </div>
                         </div>
@@ -162,9 +164,7 @@ Home | O'buchi Multimedia
             <!-- partner-area-end -->
 
 
-            <!-- blog-area -->
-            @include('frontend.home_all.home_blog')
-         <!-- blog-area-end -->
+            
 
 <!-- contact-area -->
 <section class="homeContact">

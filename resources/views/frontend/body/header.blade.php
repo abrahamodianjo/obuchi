@@ -31,7 +31,7 @@ $route = Route::current()->getName();
                                         </ul>
                                     </div>
                                     <div class="header__btn d-none d-md-block">
-                                        <a href="contact.html" class="btn">Contact me</a>
+                                        <a href="{{ route('contact.me') }}" class="btn">Contact me</a>
                                     </div>
                                 </nav>
                             </div>
@@ -40,19 +40,19 @@ $route = Route::current()->getName();
                                 <nav class="menu__box">
                                     <div class="close__btn"><i class="fal fa-times"></i></div>
                                     <div class="nav-logo">
-                                        <a href="index.html" class="logo__black"><img src="assets/img/logo/logo_black.png" alt=""></a>
-                                        <a href="index.html" class="logo__white"><img src="assets/img/logo/logo_white.png" alt=""></a>
+                                        <a href="{{ route('home') }}" class="logo__black"><img src="assets/img/logo/logo_black.png" alt=""></a>
+                                        <a href="{{ route('home') }}" class="logo__white"><img src="assets/img/logo/logo_white.png" alt=""></a>
                                     </div>
                                     <div class="menu__outer">
                                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                                     </div>
                                     <div class="social-links">
                                         <ul class="clearfix">
-                                            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                                           
+                                            <li><a href="https://www.facebook.com/profile.php?id=100063784530159" target="_blank"><span class="fab fa-facebook-square"></span></a></li>
+                                            
+                                            <li><a href="https://www.instagram.com/obuchimultimedia/" target="_blank"><span class="fab fa-instagram" ></span></a></li>
+                                            <li><a href="https://www.linkedin.com/company/o-buchi-multimedia/?viewAsMember=true" target="_blank"><span class="fab fa-linkedin"></span></a></li>
                                         </ul>
                                     </div>
                                 </nav>
