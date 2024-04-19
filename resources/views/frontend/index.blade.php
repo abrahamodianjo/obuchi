@@ -16,11 +16,10 @@ Home | O'buchi Multimedia
             <!-- banner-area-end -->
 
             <!-- about-area -->
-            @include('frontend.home_all.home_about')
+            <!--@include('frontend.home_all.home_about')-->
             <!-- about-area-end -->
-            <!-- blog-area -->
-            @include('frontend.home_all.home_blog')
-         <!-- blog-area-end -->
+            
+            
             <!-- services-area -->
             @include('frontend.home_all.services')
             <!-- services-area-end -->
@@ -99,6 +98,10 @@ Home | O'buchi Multimedia
             @include('frontend.home_all.portfolio')
             
             <!-- portfolio-area-end -->
+            
+            <!-- blog-area -->
+            @include('frontend.home_all.home_blog')
+         <!-- blog-area-end -->
 
            
             <!-- testimonial-area -->

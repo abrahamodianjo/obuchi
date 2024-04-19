@@ -51,7 +51,11 @@ $allfooter = App\Models\Footer::find(1);
                                 </div>
                                 <div class="blog__details__content services__details__content">
                                     <ul class="blog__post__meta">
+                                         <li><i class="fal fa-edit"></i>  <a href="https://www.linkedin.com/company/98319049/admin/feed/posts/" target="_blank"> Posted by  The content creation team </a>
                                         <li><i class="fal fa-calendar-alt"></i> {{Carbon\Carbon::parse($blogs->created_at)->diffForHumans()}}</li>
+                                       
+                                    </li>
+                                  
                                     </ul>
                                     <h2 class="title">{{$blogs->blog_title}}</h2>
                                     <p> {!! $blogs->blog_description !!} </p>

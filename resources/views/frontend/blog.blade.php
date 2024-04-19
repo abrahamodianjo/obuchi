@@ -57,7 +57,7 @@ Blog | O'buchi Multimedia
                                 <div class="standard__blog__content">
                                     <div class="blog__post__avatar">
                                         <div class="thumb"><img src="{{asset($item->blog_image)}}" alt=""></div>
-                                        <span class="post__by">By : <a href="https://www.linkedin.com/abraham-odianjo/" target="_blank">Abraham Odianjo</a></span>
+                                        <span class="post__by">By : <a href="https://www.linkedin.com/company/98319049/admin/feed/posts/" target="_blank">Content Creation Team</a></span>
                                     </div>
                                     <h2 class="title"><a href="{{route('blog.details', $item->id)}}">{{$item->blog_title}}</h2>
                                     <p>{!! Str::limit($item->blog_description, 200) !!}</p>
