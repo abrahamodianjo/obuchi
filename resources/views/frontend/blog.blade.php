@@ -73,20 +73,16 @@ Blog | O'buchi Multimedia
                             <div class="pagination-wrap">
                             
                                 
-                          {{$allblogs->links('vendor.pagination.custom')}}
-
-                            </div>
+                                {{$allblogs->links('vendor.pagination.custom')}}
+      
+                                  </div>
 
                         </div>
+                       
+                        
                         <div class="col-lg-4">
                             <aside class="blog__sidebar">
-                                <div class="widget">
-                                    <form action="#" class="search-form">
-                                        <input type="text" placeholder="Search">
-                                        <button type="submit"><i class="fal fa-search"></i></button>
-                                    </form>
-                                </div>
-
+                               
                                 
                                 <div class="widget">
                                     <h4 class="widget-title">Recent Blog</h4>
@@ -115,6 +111,8 @@ Blog | O'buchi Multimedia
                                 
                             </aside>
                         </div>
+
+
                         </div>
                     </div>
                

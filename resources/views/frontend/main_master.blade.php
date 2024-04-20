@@ -7,6 +7,21 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="title" content="O'Buchi Multimedia" />
+        <meta name="author" content="Abraham Odianjo" />
+        <meta name="keywords" content="Abuja, grahpics design, web development, website developmenent, photography, videography, content creation, social media, " />
+        <meta name="description" content="This is O'Buchi Multimedia website. This site is used and runned by the odianjo family, we offer the services as seen below on the website. So feel free to reach us for further businesses." />
+    
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+
 		<link rel="shortcut icon" type="image/x-icon" href="  {{asset('frontend/assets/img/favicon.png')}}">
         <!-- Place favicon.ico in the root directory -->
 

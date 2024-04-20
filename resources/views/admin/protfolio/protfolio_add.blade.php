@@ -51,8 +51,10 @@
             <!-- end row -->
 
             <div class="row mb-3">
+              
                 <label for="example-text-input" class="col-sm-2 col-form-label">Portfolio Image </label>
                 <div class="col-sm-10">
+                    <span>Images: 1020x519 for portfolio section.</span>
                     <input name="portfolio_image" class="form-control" type="file"  id="image">
                 </div>
             </div>
@@ -61,6 +63,7 @@
          
 
               <div class="row mb-3">
+                
                  <label for="example-text-input" class="col-sm-2 col-form-label">  </label>
                 <div class="col-sm-10">
                     <img id="showImage" class="rounded avatar-lg" src="{{url('upload/no_image.jpg') }}" alt="Card image cap">

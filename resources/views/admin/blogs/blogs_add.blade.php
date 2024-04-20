@@ -74,6 +74,7 @@
              <div class="row mb-3">
                 <label for="example-text-input" class="col-sm-2 col-form-label">Blog Image </label>
                 <div class="col-sm-10">
+                    <span> 1080x1080 for blog section.</span>
            <input name="blog_image" class="form-control" type="file" id="image">
                 </div>
             </div>
