@@ -9,7 +9,7 @@ $blogs = App\Models\Blog::latest()->limit(3)->get();
                 <div class="container">
                      <div class="col-xl-5 col-lg-6 col-md-8">
                                 <div class="section__title">
-                                    <span class="sub-title">02 - Our Blog</span>
+                                    <span class="sub-title">Our Blog</span>
                                     <h2 class="title">check out our latest posts and updates </h2>
                                 </div>
                             </div>

@@ -4,8 +4,9 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-xl-5 col-lg-6 col-md-8">
                                 <div class="section__title">
-                                <span class="sub-title"> Top Clients</span>
-                                    <h2 class="title">Our Partners</h2>
+                           
+                                <span class="sub-title">Top Clients & Patners</span>
+                                    <h2 class="title">Our goal is to turn innovations to reality</h2>
                                 </div>
                             </div>
                             <div class="col-xl-5 col-lg-6 col-md-4">
